@@ -7,10 +7,8 @@ minimunChars = new RegExp("^.{6,}$")
 function checkUsername(e){
     if(oneLowercase.test(e.value)){
         validations[0].style.color = "green";
-        console.log("si")
     }else{
         validations[0].style.color = "white";
-        console.log("no")
     }
 
     if(oneUppercase.test(e.value)){
